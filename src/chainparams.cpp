@@ -101,7 +101,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 30; // 30 sec
         nTargetSpacing = 1 * 30;  
-        nMaturity = 101;
+        nMaturity = 10;
         nMaxMoneyOut = 10000000000 * COIN;
         /** Height or Time Based Activations **/
         nLastPOWBlock = 130;
