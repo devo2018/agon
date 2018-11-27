@@ -101,7 +101,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 30; // 30 sec
         nTargetSpacing = 1 * 30;  
-        nMaturity = 10;
+        nMaturity = 20;
         nMaxMoneyOut = 10000000000 * COIN;
         /** Height or Time Based Activations **/
         nLastPOWBlock = 130;
@@ -133,6 +133,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xa84934befc603b6dc91cd53895bf45cd056b4e7a9562067d7608b94e8704815d"));
 
         vSeeds.push_back(CDNSSeedData("139.59.215.183", "139.59.215.183"));
+		vSeeds.push_back(CDNSSeedData("100.24.43.69", "100.24.43.69"));
     
 
 
